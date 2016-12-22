@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head lang="en" >
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+    <title>课程题目</title>
+    <meta name="description" content="">
+    <meta name="author" content="健鹏，文静，卓林，春妮">
+    <meta name="keywords" content="">
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!-- CSS
+   ================================================== -->
+    <link rel="stylesheet" href="../../public/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="../../public/css/font-awesome.min.css">
+    <!--/模块的css-->
+    <link rel="stylesheet" href="index.css">
+    <!--[if IE 7]>
+    <link rel="stylesheet" href="../../public/css/font-awesome-ie7.min.css">
+    <![endif]-->
+    <!-- Le fav and touch icons 改-->
+    <link rel="shortcut icon" type="image/x-icon" href="../../public/favicon.ico">
+
+</head>
+<body data-ng-app="app" >
+    <div ng-include="'../../component/header/header.htm'"></div>
+    <!--共用public-->
+    <script src="../../public/js/jquery.min.js" ></script>
+    <script src="../../public/js/bootstrap.min.js" ></script>
+    <script src="../../public/util/layer/layer.js" ></script>
+    <script src="../../public/js/angular.min.js" ></script>
+    <script src="../../controller/app.js"></script>
+    <script src="../../component/ajax/myAjax.js"></script>
+    <script src="../../component/EventUtil/EventUtil.js"></script>
+    <!--业务-->
+    <!--与业务无关的操作-->
+    <script src="index.js"></script>
+    <!--和后台交互-->
+    <script src="../../model/user.js"></script>
+    <!--与业务有关的操作-->
+    <script src="../../controller/indexController.js"></script>
+</body>
+</html>
