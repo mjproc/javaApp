@@ -1,0 +1,16 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = git@github.com:mjpapp/javaApp.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "dev"]
+	remote = origin
+	merge = refs/heads/dev
+[remote "upstream"]
+	url = git@github.com:mjproc/javaApp.git
+	fetch = +refs/heads/*:refs/remotes/upstream/*
